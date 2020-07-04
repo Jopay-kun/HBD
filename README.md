@@ -1,3 +1,3 @@
 # Happy Birthday!
 Python Program for Birthday Surprise
-(Includes Login system ;))
+(Includes a basic Login system)
