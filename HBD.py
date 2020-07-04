@@ -15,25 +15,18 @@ def HBD():
     print('#       #      #      #     #        #      #       #  #       #  #       #      #      #')
     print('#       #      #      #      #       #      #       #  #       #  #       #      #       ')
     print('# # # #    # # # # #  #       #      #      #       #  # # # #    #       #      #      #')
-    print('')
-    print('        #      #      # # # #    #       #  # # # # #  # # # # #     # #   # #    ')
-    print('        #    #   #    #       #  #       #  #              #        # # # # # #   ')
-    print('        #  #       #  #       #  #       #  #              #       # # # # # # #  ')
-    print('        #  # # # # #  # # # #    # # # # #  # # #          #        # # # # # #   ')
-    print('#       #  #       #  #          #       #  #              #          # # # #     ')
-    print('#       #  #       #  #          #       #  #              #           # # #      ')
-    print('  # # #    #       #  #          #       #  # # # # #      #             #        ')
 #Main
 while True:
-    a = input("User verification recuired...")
+    print('Welcome :)')
+    a = input("User verification is recuired...")
     b = input("Username: ")
-    if b == 'Jopay-kun':
+    if b == 'Your Username Here':
         while True:
             Password = getpass.getpass()
-            if Password == 'nicoleng143':
+            if Password == 'Your Password Here':
                 break
             else:
-                print('Invalid Password, Try agian')
+                print('Invalid Password, Try again')
                 continue
     else:
         print('Invalid User. Try again')
